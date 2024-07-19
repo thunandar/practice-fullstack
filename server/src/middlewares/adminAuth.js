@@ -1,7 +1,7 @@
 const { role } = require("../config/vars")
 const adminModel = require("../models/admin.model");
 const employeeModel = require("../models/employee.model");
-
+ 
 exports.adminRoleVerify = async (req, res, next) => {
     try {
 
