@@ -1,0 +1,56 @@
+{
+  "name": "sport-empire",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3007",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/next-js": "^2.2.0",
+    "@chakra-ui/react": "^2.8.2",
+    "@datepicker-react/hooks": "^2.8.4",
+    "@datepicker-react/styled": "^2.8.4",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@reduxjs/toolkit": "^2.0.1",
+    "@tanstack/react-table": "^8.11.6",
+    "@types/node": "20.4.2",
+    "@types/react": "18.2.15",
+    "@types/react-datepicker": "^4.19.6",
+    "@types/react-dom": "18.2.7",
+    "cookies-next": "^4.1.0",
+    "crypto-js": "^4.2.0",
+    "framer-motion": "^10.18.0",
+    "fs": "^0.0.1-security",
+    "module-alias": "^2.2.3",
+    "next": "13.4.11",
+    "postcss-normalize": "^10.0.1",
+    "postcss-preset-env": "^9.1.0",
+    "react": "18.2.0",
+    "react-date-range": "^2.0.0-alpha.4",
+    "react-datepicker": "^6.1.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^5.0.1",
+    "react-redux": "^9.1.0",
+    "react-router-dom": "^6.14.2",
+    "react-select": "^5.8.0",
+    "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.2.1",
+    "tsconfig-paths": "^4.2.0"
+  },
+  "_moduleAliases": {
+    "@modules": "build/modules",
+    "@core": "build/core"
+  },
+  "browser": {
+    "fs": false,
+    "os": false,
+    "path": false
+  }
+}
